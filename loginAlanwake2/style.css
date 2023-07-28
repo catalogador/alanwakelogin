@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100vw;
+height: 100vh;
+background-image: url(/bg.jpg);
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 350px;
+    padding: 20px;
+    backdrop-filter: blur(10px);
+    border: solid 1px;
+    border-radius: 10px;
+}
+
+h1{
+    font-family: REM;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.puttx input{
+    width: 90%;
+    box-shadow: 0 0 0 0;
+    outline:0;
+    border: none;
+    background-color: transparent;
+}
+input::placeholder{
+    color: rgba(255, 255, 255, 0.514);
+}
+
+
+i{
+    color: rgba(255, 255, 255, 0.603);
+}
+.puttx{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 17px;
+    border: solid 1px black;
+    padding: 8px;
+    border-radius: 20px;
+}
+.forg{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.forg a, label{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.658);
+    font-size: 13px;
+}
+label input{
+    margin-right:10px;
+}
+
+button{
+    padding: 8px;
+    text-align: center;
+    font-family: REM;
+    border-radius: 20px;
+    font-size:15px;
+    box-shadow: 0 0 0 0;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+a{
+    transition: ease all .55s;
+}
+a:hover{
+    color: rgba(255, 255, 255, 0.233);
+}
+.reg{
+    text-align: center;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.829);
+}
